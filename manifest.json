@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Everything",
+    "description": "Copy all urls from active window or browser session",
+    "version": "1.0",
+    "icons": {
+      "16": "assets/CopyEverything16",
+      "48": "assets/CopyEverything48",
+      "128": "assets/CopyEverything128"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://*.example.com/"
+    ],
+    "permissions": [
+      "tabs"
+    ]
+  }
